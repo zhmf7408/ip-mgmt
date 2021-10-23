@@ -1,0 +1,14 @@
+name: Lint
+
+on:
+  push:
+    paths:
+      - '*.py'
+
+jobs:
+  flake8_py3:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Flake8 action
+        uses: suo/flake8-github-action@v1
+
