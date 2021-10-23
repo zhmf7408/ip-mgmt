@@ -9,3 +9,10 @@ IP Management Center is distributed in the hope that it will be useful, but WITH
 You should have received a copy of the GNU General Public License along with Canway software. If not, see <https://www.gnu.org/licenses/>.
 """  # noqa
 from django.test import TestCase  # noqa
+
+
+print(123)
+
+
+
+
