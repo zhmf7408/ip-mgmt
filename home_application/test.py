@@ -12,7 +12,7 @@ from django.test import TestCase  # noqa
 
 
 print(123)
-
+a = "123"
 
 
 
