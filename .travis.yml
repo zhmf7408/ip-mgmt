@@ -36,7 +36,6 @@ pep8:
   script:
     - flake8
   except:
-    - master
     - release
 
 unittest:
@@ -48,9 +47,7 @@ unittest:
     - mysql -h localhost -uroot -e "CREATE DATABASE IF NOT EXISTS \`$APP_ID\` default charset utf8 COLLATE utf8_general_ci;"
     - echo 'yes' | sh scripts/test/coverage_and_report.sh
   except:
-    - master
     - release
-    - open-github
 
 
 webpack:
